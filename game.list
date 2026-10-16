@@ -1,1 +1,8 @@
-warframe.com
+#Warframe
+DOMAIN,api.warframe.com
+DOMAIN,content.warframe.com
+DOMAIN,origin.warframe.com
+
+#warframe market
+
+DOMAIN-SUFFIX,warframe.market
