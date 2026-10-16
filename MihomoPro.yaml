@@ -203,7 +203,6 @@ rule-providers:
   Tracking:                  { <<: *DomainMrs, url: https://github.com/666OS/rules/raw/release/mihomo/domain/Tracking.mrs }
   Advertising:               { <<: *DomainMrs, url: https://github.com/666OS/rules/raw/release/mihomo/domain/Advertising.mrs } 
   download:                  { <<: *DomainMrs, url: https://github.com/666OS/rules/blob/release/mihomo/domain/Download.mrs }
-  location_ip:               { <<: *ClassicalYaml, url: https://github.com/666OS/YYDS/raw/main/mihomo/rules/location_ip.yaml }
   XPTV:                      { <<: *ClassicalYaml, url: https://github.com/666OS/YYDS/raw/main/mihomo/rules/XPTV.yaml }
   fix-direct:                { <<: *ClassicalYaml, url: https://github.com/666OS/YYDS/raw/main/mihomo/rules/fix-direct.yaml }
   Line:                      { <<: *ClassicalYaml, url: https://github.com/666OS/YYDS/raw/main/mihomo/rules/Line.yaml }
@@ -247,6 +246,7 @@ rule-providers:
   telegram_ip:               { <<: *IPcidrMrs, url: https://github.com/666OS/YYDS/raw/main/mihomo/rules/telegram_ip.mrs }
   private_ip:                { <<: *IPcidrMrs, url: https://github.com/666OS/YYDS/raw/main/mihomo/rules/private_ip.mrs }
   cn_ip:                     { <<: *IPcidrMrs, url: https://github.com/666OS/YYDS/raw/main/mihomo/rules/cn_ip.mrs }
+  location_ip:               { <<: *ClassicalYaml, url: https://github.com/666OS/YYDS/raw/main/mihomo/rules/location_ip.yaml }
 
 # 路由
 rules:
